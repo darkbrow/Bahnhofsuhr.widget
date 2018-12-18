@@ -1,0 +1,13 @@
+#uhr-200px{
+	width: 146px;
+	height: 146px;
+}
+
+#front {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 146px;
+	height: 146px;
+	background: url(Default.png);
+}

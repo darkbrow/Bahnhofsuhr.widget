@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Bahnhofsuhr</title>
+		<link rel="stylesheet" href="bahnhofsuhr.css" />
+		<script type="text/javascript" src="bahnhofsuhr.js" />
+	</head>
+	<body>
+		<div id="front">
+			<div id="uhr-200px" />
+			<script type="text/javascript">
+				var uhr = new Bahnhofsuhr("uhr-200px", {debugMode: false, showBorder: true, showShadow: true, fullscreenable: false});
+// 				window.onresize = uhr.scale;
+			</script>
+		</div>
+	</body>
+</html>
